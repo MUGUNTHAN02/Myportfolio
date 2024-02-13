@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ /* .navbar{
+    position: sticky;
+    top: 0;
+}  */
+.navbar-brand{
+    color:gray;
+    cursor: pointer;
+    font-size: 150px;
+    animation: glow 0.5s ease infinite;
+}
+@keyframes glow{
+    from{
+        color: gray;
+    }
+    to{
+        color:black;
+        text-shadow: 0 0 10px aqua,
+        0 0 50px aqua,
+        0 0 50px aqua,
+        0 0 180px aqua;
+    }
+}
+.banner{
+    background-image: url(/images/b2.avif);
+     background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 160px 0;
+}
+#About{
+    background-color:rgb(211, 211, 211);
+}
+/* .img{
+    padding-left:
+} */
+.Skills
+{
+    background-color: rgb(218, 224, 231);
+}
+/* #Skils img{
+    filter: grayscale(100%);
+}
+#Skils img:hover{
+    filter: grayscale(0%);
+} */
+
+.Contact{
+  color: #fff;
+}
+ .icons i{
+   padding-right: 20px ;
+} 
+.icons i:hover{
+    color: aquamarine;
+}.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.card:hover{
+    transform: scale(0.9);
+    transition-timing-function: 10s ease-in-out;
+    box-shadow: 0 0 10px aqua,
+    0 0 10px aqua,
+    0 0 20px aqua,
+    0 0 30px aqua;
+    
+}
